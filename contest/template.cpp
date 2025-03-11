@@ -71,25 +71,25 @@ template<typename T> bool ckmax(T& a, const T& b) {
 	return a < b ? a = b, 1 : 0; } 
 
 // stdio
-template<typename T> inline T read(){
+template<typename T> inline T next(){
 	T x;
 	cin >> x;
 	return x;
 }
 
 
-template<typename T> inline T put(T x){
-	cout << x;
+template<typename T> inline void put(T x){
+	cout << x << " ";
 }
 
-template<typename T> inline T puts(T x){
+template<typename T> inline void puts(T x){
 	cout << x << '\n';
 }
 
 
 
 void solve(){
-  
+	
 }
 
 
